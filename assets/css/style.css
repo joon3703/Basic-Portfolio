@@ -7,7 +7,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif, serif;
     background-image: url("../images/christmas-colour.png");
 }
-
+.container {
+    position: relative;
+}
 
 header {
     background-color: #ffffff;
@@ -62,18 +64,18 @@ li a {
 }
 
 .body {
-    min-height: 100%;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
     width: 960px;
     margin-bottom: -50px;
-    position: relative;
     margin: auto;
     border-color: #dddddd;
     font-size: 18px;
     color: #777777;
     background: #ffffff;
+    display: table;
+    
 }
 
 h2 {
@@ -119,6 +121,16 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+#contact {
+    position: relative;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+#portfolio {
+    height: 500px;
 }
 
 .img1 {
